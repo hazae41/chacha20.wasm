@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es2024",
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "rootDir": "./src/node",
+    "paths": {
+      "@/*": [
+        "./src/node/*"
+      ]
+    },
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "outDir": "./out/node",
+    "declaration": true,
+    "noCheck": true,
+    "strict": true
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": []
+}

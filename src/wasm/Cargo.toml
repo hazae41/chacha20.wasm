@@ -1,0 +1,11 @@
+[package]
+name = "daemon"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+wasm-bindgen = { version = "=0.2.100", default-features = false }
+chacha20 = { version = "=0.10.0", default-features = false, features = ["cipher"] }
+memory_wasm = { path = "../../node_modules/@hazae41/memory-wasm/out/wasm" }
