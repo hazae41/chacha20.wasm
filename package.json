@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "@hazae41/chacha20-wasm",
-  "version": "2.0.4",
+  "version": "1.0.0",
   "description": "WebAssembly port of ChaCha20",
   "repository": "github:hazae41/chacha20.wasm",
   "author": "hazae41",
